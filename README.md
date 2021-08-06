@@ -1,3 +1,4 @@
+# live project url [Blog post](https://sohrab-blog-post.netlify.app/)
 # Blog-em Ipsum
 
 ### A React App for the Udemy course "React Query: Server State Management for React"
