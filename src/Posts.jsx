@@ -12,7 +12,7 @@ async function fetchPosts(pageNumber) {
 }
 
 export function Posts() {
-  const [currentPage, setCurrentPage] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
   const [selectedPost, setSelectedPost] = useState(null);
 
   const queryClient = useQueryClient();
@@ -58,7 +58,7 @@ export function Posts() {
         >
           Previous page
         </button>
-        <span>Page {currentPage + 1}</span>
+        <span>Page {currentPage}</span>
         <button
           disabled={currentPage > maxPostPage}
           onClick={() => {
